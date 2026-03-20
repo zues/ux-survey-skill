@@ -20,17 +20,17 @@ Saves a complete markdown report to `output/YYYY-MM-DD-survey-report.md`.
 ```bash
 # Project-level (recommended)
 mkdir -p .claude/commands && curl -o .claude/commands/ux-survey.md \
-  https://raw.githubusercontent.com/alexbrx/ux-survey-skill/main/commands/ux-survey.md
+  https://raw.githubusercontent.com/zues/ux-survey-skill/main/commands/ux-survey.md
 
 # Or user-level (available in all projects)
 mkdir -p ~/.claude/commands && curl -o ~/.claude/commands/ux-survey.md \
-  https://raw.githubusercontent.com/alexbrx/ux-survey-skill/main/commands/ux-survey.md
+  https://raw.githubusercontent.com/zues/ux-survey-skill/main/commands/ux-survey.md
 ```
 
 **Option 2: Clone and install**
 
 ```bash
-git clone https://github.com/alexbrx/ux-survey-skill.git
+git clone https://github.com/zues/ux-survey-skill.git
 cd ux-survey-skill
 bash install.sh
 ```
